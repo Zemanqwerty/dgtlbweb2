@@ -152,3 +152,66 @@ hr{
     border: 1px solid rgb(222, 222, 222);
     margin-top: 10px;
 }
+
+.main-page__content-title {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content-title_text {
+    font-size: 27px;
+    color:rgb(44, 44, 44)
+}
+
+.main-page__content-block {
+    width: 100%;
+    min-height: calc(100% - 100px);
+    height: auto;
+}
+
+.content-block__text {
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+}
+
+.content-block__text__text {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+    text-align: left;
+}
+
+.content-block__galery {
+    width: 100%;
+    height: 300px;
+}
+
+
+.my_slide1 {
+    width: 100%;
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+.my_slide2 {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(203, 132, 39);
+}
+
+.my_slide3 {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(30, 28, 26);
+}
+
+.my_slide4 {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(34, 21, 3);
+}
