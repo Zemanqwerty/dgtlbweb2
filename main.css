@@ -61,6 +61,12 @@ main{
     padding: 20px;
 }
 
+.main_wrapper__for-rojects {
+    width: 100%;
+    height: auto;
+    min-height: calc(100vh - 150px);
+}
+
 footer{
     width: 100%;
     height: 100px;
@@ -144,12 +150,13 @@ footer{
 
 .my_professional{
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     list-style: none;
     flex-wrap: wrap;
+    grid-gap: 5px;
 }
 
 .my_prof_li{
@@ -158,7 +165,7 @@ footer{
     color: rgb(102, 102, 102);
     font-size: 19px;
     font-family: Arial black;
-    margin: 0 4px;
+    margin: 5px 0;
     border-radius: 17px;
 }
 
@@ -269,11 +276,13 @@ hr{
 }
 
 .my-project {
-    width: 60%;
+    width: 600px;
     height: 80%;
-    background-color: rgb(210, 210, 210);
+    background: rgb(183, 184, 196);
     border-radius: 30px;
-    box-shadow: 10px 10px 20px rgb(76, 76, 76);
+    -webkit-box-shadow: 0px 8px 13px 4px rgba(34, 60, 80, 0.22);
+    -moz-box-shadow: 0px 8px 13px 4px rgba(34, 60, 80, 0.22);
+    box-shadow: 0px 8px 13px 4px rgba(34, 60, 80, 0.22);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -293,4 +302,50 @@ a {
 .header_menu_text:hover {
     color: rgb(111, 152, 181);
     transition: .3s;
+}
+
+.project-description {
+    width: 100%;
+    padding: 5px;
+    height: 25%;
+    padding-left: 5%;
+}
+
+.project-title {
+    width: 100%;
+    height: 50%;
+    font-size: 25px;
+    color: rgb(44, 46, 44);
+    display: flex;
+    align-items: center;
+    font-family: 'Prosto One', cursive;
+    font-weight: 400;
+}
+
+.projects-stack {
+    width: 100%;
+    height: 50%;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .header_ul {
+        display: none;
+    }
+
+    header {
+        height: 70px;
+    }
+
+    .logo_text {
+        font-size: 60px;
+    }
 }
