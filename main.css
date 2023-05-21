@@ -79,6 +79,9 @@ footer{
 .footer_wrapper{
     width: 80%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -333,6 +336,14 @@ a {
     font-weight: 400;
 }
 
+.footer-links{
+    padding: 0 25px;
+}
+
+.footer-links__img {
+    width: 42px;
+    height: 42px;
+}
 
 
 
@@ -347,5 +358,27 @@ a {
 
     .logo_text {
         font-size: 60px;
+    }
+
+    .main_top_block {
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .main_person_desc_block {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .main_wrapper {
+        width: 90%;
     }
 }
